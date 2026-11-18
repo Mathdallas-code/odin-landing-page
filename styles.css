@@ -12,7 +12,7 @@ ul {
   margin: 0;
   justify-content: space-between;
   align-items: center;
-  width: 800px;
+  width: 900px;
 }
 
 a {
@@ -26,7 +26,6 @@ a {
   justify-content: center;
   padding: 12px;
   background-color: #1f2937;
-  margin: 0;
 }
 
 .logo {
@@ -38,4 +37,60 @@ a {
 .links {
   display: flex;
   gap: 16px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  padding: 100px 0px;
+}
+
+.hero-section .content {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-section .left-side {
+  width: 400px;
+  flex: 1 0 auto;
+}
+
+.hero-section .right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6d747d;
+  color: white;
+  flex: 3 0 auto;
+  height: 200px;
+}
+
+.hero-section h1 {
+  font-weight: 900;
+  font-size: 48px;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.hero-section p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.sign-up {
+  padding: 8px 32px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.hero-section .sign-up {
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  margin-top: 8px;
 }

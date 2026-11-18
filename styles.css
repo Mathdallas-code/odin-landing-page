@@ -94,3 +94,38 @@ a {
   color: white;
   margin-top: 8px;
 }
+
+.items-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.items-section h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.items {
+  display: flex;
+  gap: 24px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+}
+
+.item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  border: 4px solid #3c7de4;
+}
+
+.item p {
+  color: #57606d;
+}

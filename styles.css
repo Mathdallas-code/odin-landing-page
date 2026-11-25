@@ -21,11 +21,29 @@ a {
   color: #e5e7eb;
 }
 
+h1 {
+  color: #f9faf8;
+}
+
+h2 {
+  color: #f9faf8;
+}
+
+.header,
+.hero-section,
+.footer {
+  background-color: #210600;
+}
+
+.items-section,
+.call-to-action-section {
+  background-color: #2d1208;
+}
+
 .header {
   display: flex;
   justify-content: center;
   padding: 12px;
-  background-color: #1f2937;
 }
 
 .logo {
@@ -42,7 +60,6 @@ a {
 .hero-section {
   display: flex;
   justify-content: center;
-  background-color: #1f2937;
   padding: 100px 0px;
 }
 
@@ -63,10 +80,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #6d747d;
-  color: #f9faf8;
   flex: 3 0 auto;
   height: 200px;
+}
+.hero-section img {
+  height: 200px;
+  width: auto;
 }
 
 .hero-section h1 {
@@ -104,7 +123,6 @@ a {
 
 .items-section h2 {
   font-size: 36px;
-  color: #1f2937;
   font-weight: 900;
 }
 
@@ -117,6 +135,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 170px;
+  text-align: center;
 }
 
 .item img {
@@ -127,13 +146,13 @@ a {
 }
 
 .item p {
-  color: #57606d;
+  color: #e7e9e4;
 }
 
 .quote-section {
-  background-color: #e5e7eb;
   display: flex;
   justify-content: center;
+  background-color: #2a1003;
 }
 
 .quote-section .content {
@@ -144,7 +163,6 @@ a {
 
 .quote-section h1 {
   font-size: 36px;
-  color: #1f2937;
   font-weight: 300;
   font-style: italic;
 }
@@ -152,7 +170,8 @@ a {
 .quote-section p {
   align-self: flex-end;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 16px;
+  color: #e7e9e4;
 }
 
 .call-to-action-section {
@@ -190,7 +209,6 @@ a {
 }
 
 .footer {
-  background-color: #1f2937;
   text-align: center;
   justify-content: center;
   align-items: center;
